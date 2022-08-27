@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tienda shop </title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
-</head>
+  
+</head>  <link rel="stylesheet" type="text/css" href="estiloscss/estilos.css">
 
 <body>
     <h1> TIENDA PET SHOP</h1>
@@ -19,6 +19,7 @@
             <li><a href="clasificacion/servicios.html">SERVICIOS</a></li>
             <li><a href="clasificacion/clasificaciones.html">CLASIFICACIONES</a></li>
             <li><a href="clasificacion/encuesta.html">ENCUESTA</a></li>
+
 
         </ul>
     </nav>
@@ -49,6 +50,26 @@
                 </div>
                 <div><img src="imagen/tienda3.jpg"></div>
             </div>
+            <hr>
+        <br>
+        <div class="row col-5" id="formulario">
+            <form id="form" method="post" action="pagina-destino.php">
+              <div class="row" id="formTitulo">
+                <h1> CONTACTENOS </h1>
+              </div>
+    
+              <label> NOMBRE </label><br>
+              <input type="tex" id="name" name="nombre" required="" placeholder="nombre" /><br>
+    
+              <label> CORREO</label><br>
+              <input type="tex" id="name" name="nombre" required="" placeholder="correo" /><br>
+              
+              <label> INQUIETUDES </label><br>
+              <textarea name="textarea" rows="10" cols="50">dejenos sus inquietudes </textarea><br>
+    
+              <button type="submit" name="enviar" id="boton"> EMVIAR </button><br>
+            </form>
+          </div>
         </div>
     </div>
         
@@ -58,6 +79,7 @@
             <p>Tienda veterinaria dirigida a todos nuestros clientes, para poderles brindar la mayor satisfacción
             en nuestros productos y en casa función que se necesita para cada una de sus necesidades.</p>
         </footer>
+        
 
 </body>
 
