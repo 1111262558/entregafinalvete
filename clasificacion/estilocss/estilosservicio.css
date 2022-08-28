@@ -1,0 +1,28 @@
+body{
+    background: url(../imagen/belleza5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: rgb(58, 158, 153);
+    color: rgb(20, 19, 19);
+    padding: 20px;}
+
+
+    
+h2 {
+    text-align: center;
+    background-color: rgb(43, 192, 147);
+    color: rgb(27, 26, 26);
+    padding: 20px;}
+
+    
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+    }

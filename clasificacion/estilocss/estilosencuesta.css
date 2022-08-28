@@ -1,0 +1,10 @@
+body{
+    background: url(../imagen/paisaje.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.inframe{
+    align-items:center ;
+}
